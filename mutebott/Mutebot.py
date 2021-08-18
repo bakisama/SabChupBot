@@ -3,7 +3,7 @@ from discord.ext import commands
 import random
 import os
 
-#TOKEN = os.environ["NzczMDU1NTQ4OTYxNTg3MjEw.X6DqFQ.gyF8Ptu31De52o_PT0AkEdmWG5E"]
+#TOKEN = os.environ[""]
 
 client = commands.Bot(command_prefix=".")
 
@@ -227,4 +227,4 @@ async def start(ctx):
 
 
 # run the bot
-client.run("NzczMDU1NTQ4OTYxNTg3MjEw.X6DqFQ.gyF8Ptu31De52o_PT0AkEdmWG5E")
+client.run("TOKEN")
